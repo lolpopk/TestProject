@@ -1,73 +1,32 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
 public class SaveData : MonoBehaviour
 {
+    private const string GameSaveKey = "GameSaveData";
+
     public static void Save(Game game)
     {
         string json = JsonUtility.ToJson(game, true);
-        File.WriteAllText(GetSavePath(), json);
+        PlayerPrefs.SetString(GameSaveKey, json);
+        PlayerPrefs.Save(); // Ensure data is written to disk immediately
     }
 
     public static Game Load()
     {
         Game game = new Game();
 
-        string path = GetSavePath();
-
-        if (File.Exists(path))
+        if (PlayerPrefs.HasKey(GameSaveKey))
         {
-            string json = File.ReadAllText(path);
-            game = JsonUtility.FromJson<Game>(json);   
+            string json = PlayerPrefs.GetString(GameSaveKey);
+            game = JsonUtility.FromJson<Game>(json);
         }
-
         else
         {
-            Save(game);
+            Save(game); // Initialize and save default game data if nothing is saved yet
         }
+
         return game;
-    }
-    //public static Game Load()
-    //{
-    //    string path = GetSavePath();
-    //    var formatter = new BinaryFormatter();
-    //    Game result = new Game();
-
-    //    if (File.Exists(path))
-    //        using (var fileStream = new FileStream(path, FileMode.Open))
-    //        {
-    //            try
-    //            {
-    //                result = (Game)formatter.Deserialize(fileStream);
-    //            }
-    //            catch (Exception e)
-    //            {
-    //                Debug.LogError(e);
-    //            }
-    //        }
-
-    //    else
-    //        Save(result);
-
-    //    return result;
-    //}
-
-    //public static void Save(Game game)
-    //{
-    //    var formatter = new BinaryFormatter();
-    //    using (var fileStream = new FileStream(GetSavePath(), FileMode.OpenOrCreate))
-    //        formatter.Serialize(fileStream, game);
-
-    //}
-
-    public static string GetSavePath()
-    {
-        string path = $"{Application.dataPath}/Save/Main.json";
-        return path;
     }
 
     [System.Serializable]
@@ -87,6 +46,7 @@ public class SaveData : MonoBehaviour
         public float GameSounds = 0.5f;
         public float GameMusic = 0.5f;
         public float ButtonsGame = 0f;
+
         public Game()
         {
             JugglingLevel = 0;

@@ -65,7 +65,6 @@
     <Compile Include="Assets/Scripts/Chess/ChessTutorial.cs" />
     <Compile Include="Assets/Scripts/Slot/SlotTutorial.cs" />
     <Compile Include="Assets/Scripts/TutorialMenu.cs" />
-    <Compile Include="Assets/Scripts/Chess/Trajectory.cs" />
     <Compile Include="Assets/Scripts/AttentionLevel.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/Juggling/Trace.cs" />
@@ -103,6 +102,7 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/Save/Main.json" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
@@ -746,68 +746,23 @@
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.AI.Navigation">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Common.Path.Editor">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Aseprite.Common">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Aseprite.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Collections">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Aseprite.Editor">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="PsdPlugin">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+    <Reference Include="Unity.Burst">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -815,11 +770,11 @@
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Recorder.Base">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -830,14 +785,26 @@
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Common">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Aseprite.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
@@ -845,8 +812,17 @@
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -854,8 +830,8 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    <Reference Include="Unity.Collections">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
@@ -863,8 +839,17 @@
     <Reference Include="Unity.AI.Navigation.Updater">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
@@ -872,23 +857,38 @@
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Aseprite.Editor">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
       <HintPath>/Users/admin/Documents/UnityProj/TestProject/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
