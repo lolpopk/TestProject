@@ -1,0 +1,4063 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6272758195763041764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 104778410178303704}
+  - component: {fileID: 1404239942456276023}
+  m_Layer: 0
+  m_Name: GameAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &104778410178303704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6272758195763041764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8242922, y: -1.8733473, z: 0.6294305}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1404239942456276023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6272758195763041764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5b4247d75ff4974791f2523f49887cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChessPrefab: {fileID: 5641719283133922870, guid: a4367d9ac37e8df4586f0dc6eb0cb097, type: 3}
+  ProtectedChessPrefab: {fileID: 2814834422271929707, guid: 38f3f8536dbeae74da4217b9ae1ea96d, type: 3}
+  JugglingItems:
+  - {fileID: 4480501583792456282, guid: 630f2054038086847a752b75e96c149f, type: 3}
+  - {fileID: 4735788783882588559, guid: 22d61c79f7e8c0240924e5774b8f6852, type: 3}
+  - {fileID: 4614594373613315067, guid: 777ffcffab72cde44ba4c00fe01a4484, type: 3}
+  - {fileID: 6978512278529552348, guid: bd3d0a445742d1b448635e9a8d4e260d, type: 3}
+  - {fileID: 5704093224833727397, guid: 20ea4ac7f2824e54787d4ef0b9ba8817, type: 3}
+  - {fileID: 7789960507223556740, guid: 6ac51df725059ae4bbf8bfbc8f8a1ed3, type: 3}
+  - {fileID: 6799203062091598342, guid: f0aef81cf716b864f930b8826059d775, type: 3}
+  levels:
+  - BackGround: {fileID: 21300000, guid: ea89c4144a6f3104caed631cafb5cf5d, type: 3}
+    Time: 20
+    TraceSpeed: 1.4
+    ItemSpeed: 1
+    Chance: 40
+    ItemCount: 2
+    Win: 100
+    Price: 50
+  - BackGround: {fileID: 21300000, guid: 9dd50cbb2f64f3e4ab7adb3c2a653182, type: 3}
+    Time: 25
+    TraceSpeed: 1.5
+    ItemSpeed: 1
+    Chance: 44
+    ItemCount: 2
+    Win: 200
+    Price: 120
+  - BackGround: {fileID: 21300000, guid: 95bd020ffe7d07049b8e581ab7a3ce7c, type: 3}
+    Time: 27
+    TraceSpeed: 1.6
+    ItemSpeed: 1
+    Chance: 45
+    ItemCount: 3
+    Win: 300
+    Price: 150
+  - BackGround: {fileID: 21300000, guid: 5b07e92afa89c5b49bfca6cb0d68f240, type: 3}
+    Time: 30
+    TraceSpeed: 1.6
+    ItemSpeed: 1
+    Chance: 50
+    ItemCount: 3
+    Win: 350
+    Price: 270
+  - BackGround: {fileID: 21300000, guid: c004f1fe786c5354dab58ce765add4d9, type: 3}
+    Time: 34
+    TraceSpeed: 1.7
+    ItemSpeed: 1
+    Chance: 55
+    ItemCount: 3
+    Win: 450
+    Price: 300
+  - BackGround: {fileID: 21300000, guid: eef8606f3b165a441aa1d77899ffe514, type: 3}
+    Time: 36
+    TraceSpeed: 1.7
+    ItemSpeed: 1
+    Chance: 60
+    ItemCount: 4
+    Win: 600
+    Price: 400
+  - BackGround: {fileID: 21300000, guid: 7ecf1ce96d7d1004b839417d42e0b656, type: 3}
+    Time: 40
+    TraceSpeed: 1.8
+    ItemSpeed: 1
+    Chance: 60
+    ItemCount: 4
+    Win: 650
+    Price: 450
+  - BackGround: {fileID: 21300000, guid: a53029efd43125643803900252aad3c7, type: 3}
+    Time: 40
+    TraceSpeed: 2
+    ItemSpeed: 1
+    Chance: 60
+    ItemCount: 4
+    Win: 700
+    Price: 450
+  - BackGround: {fileID: 21300000, guid: 296dccb799616c142a63f1488153c4c9, type: 3}
+    Time: 50
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 5
+    Win: 850
+    Price: 450
+  - BackGround: {fileID: 21300000, guid: d307162ac4444324994d935eb7f171ac, type: 3}
+    Time: 50
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 6
+    Win: 1000
+    Price: 700
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  - BackGround: {fileID: 21300000, guid: 4c26aa45c399e244ea2efa80281e0eee, type: 3}
+    Time: 60
+    TraceSpeed: 2.3
+    ItemSpeed: 1
+    Chance: 70
+    ItemCount: 7
+    Win: 1200
+    Price: 800
+  Spin: {fileID: 8300000, guid: ff298c8d35f73424ab846df11945a450, type: 3}
+  Stop: {fileID: 8300000, guid: 6cb757bf72c0cd34da7c6bec70124948, type: 3}
+  Pickup: {fileID: 8300000, guid: 26cd5c7f23b76a44b9f9059250170342, type: 3}
+  Pinko: {fileID: 8300000, guid: 854a52d14f52101439ebcc82487d5aab, type: 3}
+  TempSoundP: {fileID: 1743097794759055671, guid: 11c1a7154e7d4dd42a04b1bc2d2e26bc, type: 3}
+  Click: {fileID: 8300000, guid: 18f868707d8207649a4121058626b628, type: 3}
