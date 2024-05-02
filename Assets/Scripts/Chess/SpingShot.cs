@@ -10,7 +10,6 @@ public class SpingShot : MonoBehaviour
     [SerializeField] private SpingshotRope _rope;
     [SerializeField] private Transform _middle;
     [SerializeField] private Gate _gate;
-    [SerializeField] private Trajectory _trajectory;
     [SerializeField] private EnergyCounter _energy;
     [SerializeField] private List<Rigidbody2D> _jountBody = new List<Rigidbody2D>();
 

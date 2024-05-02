@@ -3166,7 +3166,6 @@ GameObject:
   - component: {fileID: 676870837}
   - component: {fileID: 676870838}
   - component: {fileID: 676870839}
-  - component: {fileID: 676870840}
   m_Layer: 0
   m_Name: SpingShot
   m_TagString: Untagged
@@ -3212,7 +3211,6 @@ MonoBehaviour:
   _rope: {fileID: 303791665}
   _middle: {fileID: 1491040045}
   _gate: {fileID: 2082466905}
-  _trajectory: {fileID: 676870840}
   _energy: {fileID: 1398584329}
   _jountBody:
   - {fileID: 1448025205}
@@ -3314,23 +3312,6 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
---- !u!114 &676870840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676870836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77450cb8095852540878957b1eba0e20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _obstacleParent: {fileID: 2016940856}
-  _line: {fileID: 676870839}
-  _maxIteration: 100
-  _slingshotParent: {fileID: 1493378931}
-  _sjs: []
 --- !u!1001 &680819464
 PrefabInstance:
   m_ObjectHideFlags: 0

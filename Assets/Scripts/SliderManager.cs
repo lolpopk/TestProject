@@ -12,12 +12,7 @@ public class SliderManager : MonoBehaviour
     private void Start()
     {
         float result = _defaultValue;
-
-        if (PlayerPrefs.HasKey(_key))
-            result = PlayerPrefs.GetFloat(_key);
-
-        else 
-            PlayerPrefs.SetFloat(_key, result);
+        result = getByKey(_key);
 
         _slider.value = result;
     }
@@ -25,7 +20,69 @@ public class SliderManager : MonoBehaviour
     public void OnChange()
     {
         float value = _slider.value;
-        PlayerPrefs.SetFloat(_key, value);
+        setByKey(_key, value);
+    }
+
+    private void setByKey(string key, float value)
+    {
+        SaveData.Game game = SaveData.Load();
+        switch (key)
+        {
+            case "MusicMenu":
+                game.MenuMusic = value;
+                break;
+
+            case "SoundsMenu":
+                game.MenuSounds = value;
+                break;
+
+            case "Music":
+                game.GameMusic = value;
+                break;
+
+            case "Sounds":
+                game.GameSounds = value;
+                break;
+
+            case "ButtonsSound":
+                game.ButtonsGame = value;
+                break;
+
+        }
+
+        SaveData.Save(game);
+    }
+
+    private float getByKey(string key)
+    {
+        float result = 0.5f;
+
+        SaveData.Game game = SaveData.Load();
+        switch (key)
+        {
+            case "MusicMenu":
+                result = game.MenuMusic;
+                break;
+
+            case "SoundsMenu":
+                result = game.MenuSounds;
+                break;
+
+            case "Music":
+                result = game.GameMusic;
+                break;
+
+            case "Sounds":
+                result = game.GameSounds;
+                break;
+
+            case "ButtonsSound":
+                result = game.ButtonsGame;
+                break;
+
+        }
+
+        return result;
     }
 
 }

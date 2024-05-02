@@ -24,24 +24,25 @@ public class ClipPlayer : MonoBehaviour
 
     public void Play(AudioClip clip)
     {
-        float value = 0.5f;
-        string key = _isMenu ? "SoundsMenu" : "Sounds";
-        if (!_isMenu && clip == GameAssets.i.Click)
-        {
-            key = "ButtonsSound";
-            value = 0f;
-        }
-
-        if (PlayerPrefs.HasKey(key))
-            value = PlayerPrefs.GetFloat(key);
-        else
-            PlayerPrefs.SetFloat(key, value);
-
-        _source.volume = value;
+        updateVolume(clip);
 
         _source.loop = false;
         _source.clip = clip;
 
         _source.Play();
+    }
+
+    private void updateVolume(AudioClip clip)
+    {
+        float volume = 0.5f;
+        SaveData.Game game = SaveData.Load();
+        volume = _isMenu ? game.MenuSounds : game.GameSounds;
+
+        if (!_isMenu && clip == GameAssets.i.Click)
+        {
+            volume = game.ButtonsGame;
+        }
+
+        _source.volume = volume;
     }
 }

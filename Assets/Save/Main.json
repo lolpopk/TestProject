@@ -1,0 +1,15 @@
+{
+    "JugglingLevel": 0,
+    "Money": 200.0,
+    "Energy": 1,
+    "UnlockingLvl": [],
+    "TutorialSlot": true,
+    "TutorialMenu": true,
+    "TutorialChess": true,
+    "TutorialJuggling": true,
+    "MenuSounds": 0.5,
+    "MenuMusic": 0.0,
+    "GameSounds": 0.5,
+    "GameMusic": 0.5,
+    "ButtonsGame": 0.0
+}

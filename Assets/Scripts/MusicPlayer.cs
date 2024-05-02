@@ -26,13 +26,9 @@ public class MusicPlayer : MonoBehaviour
     public void UpdateVolume()
     {
         float volume = _isMenu ? 0f : 0.5f;
-        string key = _isMenu ? "MusicMenu" : "Music";
 
-        if (PlayerPrefs.HasKey(key))
-            volume = PlayerPrefs.GetFloat(key);
-        else
-            PlayerPrefs.SetFloat(key, volume);
-
+        SaveData.Game game = SaveData.Load();
+        volume = _isMenu ? game.MenuMusic : game.GameMusic;
         _source.volume = volume;
     }
 }

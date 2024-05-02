@@ -76,7 +76,6 @@
     <Compile Include="Assets\Scripts\ChooseLevel.cs" />
     <Compile Include="Assets\Scripts\Juggling\MenuJuggling.cs" />
     <Compile Include="Assets\Scripts\AttentionMenu.cs" />
-    <Compile Include="Assets\Scripts\Chess\Trajectory.cs" />
     <Compile Include="Assets\Scripts\SaveData.cs" />
     <Compile Include="Assets\Scripts\Juggling\ExitTrigger.cs" />
     <Compile Include="Assets\Scripts\Errorbox.cs" />

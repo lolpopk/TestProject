@@ -27,8 +27,6 @@ public class ChooseLevel : MonoBehaviour
                 index++;
             }
         }
-
-        Debug.Log(index);
     }
 
     private void Start()

@@ -8,14 +8,12 @@ public class MusicManager : MonoBehaviour
     [SerializeField] private AudioClip _clip;
     [SerializeField] private bool _isMenu = false;
     private AudioSource _source;
-    private string _key = "Music";
     private void Awake()
     {
         _source = GetComponent<AudioSource>();
     }
     private void Start()
     {
-        _key = _isMenu ? "MusicMenu" : _key;
         ChangeVolume();
 
         _source.clip = _clip;
@@ -27,10 +25,9 @@ public class MusicManager : MonoBehaviour
     {
         float value = 0.5f;
 
-        if (PlayerPrefs.HasKey(_key))
-            value = PlayerPrefs.GetFloat(_key);
-        else
-            PlayerPrefs.SetFloat(_key, value);
+        SaveData.Game game = SaveData.Load();
+        value = _isMenu ? game.MenuMusic : game.GameMusic;
+
         _source.volume = value;
     }
 }
