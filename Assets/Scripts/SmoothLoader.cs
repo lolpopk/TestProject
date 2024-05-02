@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -5,6 +6,11 @@ using UnityEngine.SceneManagement;
 public class SmoothLoader : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
+
+    private void Awake()
+    {
+        Application.targetFrameRate = 60;
+    }
 
     private void Update()
     {
